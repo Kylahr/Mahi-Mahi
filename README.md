@@ -41,6 +41,8 @@ Click the "Run" button at the top right corner to compile and run the code.
 4. Sometimes the red values aren't correct. Adjust with the trackbar until only the feather is marked green!
 5. If you want your gamer cousin to exit the game, create a macro with `/quit` and set it to the keybind you want. Make sure you change the keybind accordingly in the code.
 
+![Your cousin playing for you.]([URL](https://github.com/Kylahr/Mahi-Mahi/blob/main/image.png))
+
 ## Additional Tips
 - You might have to run VS Code as admin for it to work properly.
 - Avoid running the bot for long periods of time.
