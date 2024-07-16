@@ -1,10 +1,9 @@
 # Mahi-Mahi Fishing Bot
 
-![Mahi-Mahi Fishing Bot](https://github.com/your-username/your-repo-name/blob/main/images/fishing-bot.png)
-
 Welcome to Mahi-Mahi, your handy fishing bot!
 
-**Disclaimer:**
+## Disclaimer
+
 - If you get banned by Blizzard, it's not my responsibility.
 - Don't abuse the bot or you might face consequences.
 - Avoid converting it into an executable as it becomes easier to detect. Instead, compile it in VS Code or any similar editor.
@@ -29,3 +28,14 @@ Welcome to Mahi-Mahi, your handy fishing bot!
 2. Run the following command to install the necessary packages:
    ```sh
    pip install opencv-python numpy pyautogui pygetwindow Pillow
+   
+### Step 5: Restart Your Computer
+It's a good idea to restart your computer to ensure all installations are properly set up.
+
+### Step 6: Running the Bot
+Open the bot script in VS Code.
+Click the "Run" button at the top right corner to compile and run the code.
+
+## Additional Tips
+- Avoid running the bot for more than 10 hours continuously.
+- You can change key bindings at the top of the code. If you need help with the correct string for a key binding, feel free to ask ChatGPT.
