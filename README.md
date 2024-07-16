@@ -35,6 +35,6 @@ Open the bot script in VS Code.
 Click the "Run" button at the top right corner to compile and run the code.
 
 ## Additional Tips
-- You might have to VS Code as admin for it to work properly.
+- You might have to run VS Code as admin for it to work properly.
 - Avoid running the bot for more than 10 hours continuously.
 - You can change key bindings at the top of the code. If you need help with the correct string for a key binding, feel free to ask ChatGPT.
