@@ -128,7 +128,7 @@ def catch_fish(stop_event):
         caught_fish += 1
         catching = False
 
-        time.sleep(rand_numb(0.6, 4))  # Add randomness in holding down the key
+        time.sleep(rand_numb(0.6, 2))  
         pyautogui.press(interact_key, interval=rand_numb(button_hold1, button_hold2))
         time.sleep(rand_numb(0.3, 0.9))
         
