@@ -1,6 +1,4 @@
-# Mahi-Mahi Fishing Bot
-
-Welcome to Mahi-Mahi, your handy fishing bot!
+# Mahi-Mahi
 
 ## Disclaimer
 
