@@ -37,8 +37,9 @@ Click the "Run" button at the top right corner to compile and run the code.
 ## How to Use
 1. Position your in-game camera so the bobber is inside the window and can be tracked.
 2. Try to be as leveled to the water and the bobber as possible; don't stare down, as the tracking probably won't work.
-3. The only red thing on your screen should be the bobbers feather!
+3. The only red thing on your screen should be the bobber's feather!
 4. Sometimes the red values aren't correct. Adjust with the trackbar until only the feather is marked green!
+5. If you want your gamer cousin to exit the game, create a macro with `/quit` and set it to the keybind you want. Make sure you change the keybind accordingly in the code.
 
 ## Additional Tips
 - You might have to run VS Code as admin for it to work properly.
