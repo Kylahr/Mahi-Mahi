@@ -25,7 +25,7 @@
 1. Open a terminal in VS Code by clicking on `Terminal` in the top menu and selecting `New Terminal`.
 2. Run the following command to install the necessary packages:
    ```sh
-pip install opencv-python numpy pyautogui pygetwindow Pillow
+   pip install opencv-python numpy pyautogui pygetwindow Pillow
    
 ### Step 5: Restart Your Computer
 It's a good idea to restart your computer to ensure all installations are properly set up.
