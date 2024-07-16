@@ -136,9 +136,9 @@ def catch_fish(stop_event):
             fish_catching = False
             return
         
-        time.sleep(rand_numb(0.7, 1.9)) 
+        time.sleep(rand_numb(0.7, 0.9)) 
         pyautogui.press(fishing_key, interval=rand_numb(button_hold1, button_hold2))
-         
+        time.sleep(rand_numb(0.05, 0.15))
 
         print_status("Fish caught: " + str(caught_fish))
         catching = True
@@ -301,7 +301,7 @@ try:
         else:
             if contour_detected_time is None:
                 contour_detected_time = time.time()
-            elif time.time() - contour_detected_time > 6 and not fish_catching:
+            elif time.time() - contour_detected_time > 8 and not fish_catching:
                 handle = gw.getWindowsWithTitle('World of Warcraft')[0]
                 # Check if the window is already active
                 if gw.getActiveWindow() != handle:
