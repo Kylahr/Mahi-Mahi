@@ -34,6 +34,10 @@ It's a good idea to restart your computer to ensure all installations are proper
 Open the bot script in VS Code.
 Click the "Run" button at the top right corner to compile and run the code.
 
+##How to Use
+1. Position your in-game camera so the bobber is inside the window and can be tracked.
+2. Sometimes the red values aren't correct. Adjust with the trackbar until only the feather is marked green.
+
 ## Additional Tips
 - You might have to run VS Code as admin for it to work properly.
 - Avoid running the bot for long periods of time.
