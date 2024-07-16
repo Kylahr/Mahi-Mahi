@@ -1,5 +1,8 @@
 # Mahi-Mahi
 
+![Mahi-Mahi Icon](https://github.com/Kylahr/Mahi-Mahi/blob/main/mahi.png)
+
+
 ## Disclaimer
 
 - If you get banned by Blizzard, it's not my responsibility.
