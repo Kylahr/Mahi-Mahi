@@ -13,7 +13,7 @@ button_hold2 = 0.7           # Maximum duration to hold a button (simulating hum
 duration = 2                 # Run WoW for at least 2 hours, time is set randomly
 
 # Fishing rate
-fishing_rate = 90            # Set percentage of catching fish. Best not to change it. Never make it 100
+fishing_rate = 95           # Set percentage of catching fish. Best not to change it. Never make it 100
 ########################################################################################################
 
 # Function to create ASCII art with dynamic text
@@ -128,7 +128,7 @@ def catch_fish(stop_event):
         caught_fish += 1
         catching = False
 
-        time.sleep(rand_numb(0.6, 1.5))  
+        time.sleep(rand_numb(0.3, 0.7))  
         pyautogui.press(interact_key, interval=rand_numb(button_hold1, button_hold2))
         time.sleep(rand_numb(0.3, 0.9))
         
