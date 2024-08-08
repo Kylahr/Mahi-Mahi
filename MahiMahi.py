@@ -10,7 +10,7 @@ button_hold1 = 0.3           # Minimum duration to hold a button (simulating hum
 button_hold2 = 0.7           # Maximum duration to hold a button (simulating human behavior)
 
 # Run duration
-duration = 2                 # Run WoW for at least 2 hours, time is set randomly
+duration = 4                 # Run WoW for at least 2 hours, time is set randomly
 
 # Fishing rate
 fishing_rate = 95           # Set percentage of catching fish. Best not to change it. Never make it 100
@@ -140,7 +140,7 @@ def catch_fish(stop_event):
         pyautogui.press(fishing_key, interval=rand_numb(button_hold1, button_hold2))
         time.sleep(rand_numb(0.05, 0.15))
 
-        print_status("Fish caught: " + str(caught_fish))
+        print_status("Fish caught: " + str(caught_fish) + "  Fish failed: " + str(failed_fish))
         catching = True
     else:
         failed_fish += 1
@@ -289,7 +289,7 @@ try:
             
             if previous_y is not None and not fish_catching:
                 motion = current_y - previous_y
-                if motion < -4:
+                if motion > 4:
                     stop_event = threading.Event()
                     stop_event.clear()
                     
